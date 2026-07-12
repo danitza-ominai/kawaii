@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-rounded: "Fredoka", sans-serif;
+
+  --color-kawaii-pink: #ffb7c5;
+  --color-kawaii-pink-dark: #e88d9f;
+  --color-kawaii-lila: #e2d2f9;
+  --color-kawaii-lila-dark: #bba2e8;
+  --color-kawaii-mint: #c6ebd9;
+  --color-kawaii-mint-dark: #91d2b1;
+  --color-kawaii-yellow: #fef0db;
+  --color-kawaii-yellow-dark: #f6d194;
+  --color-kawaii-dark: #2b2325;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f7f5f6;
+  color: #2b2325;
+}
+
+/* Custom rounded scrollbars for a premium feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #ffb7c5;
+  border-radius: 99px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e88d9f;
+}

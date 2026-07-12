@@ -1,0 +1,6 @@
+{
+  "name": "Your Kawaii Closet",
+  "description": "Prototipo interactivo de alta fidelidad para Your Kawaii Closet, tienda de moda kawaii en Ecuador con probador virtual y creador de avatar 2D.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
